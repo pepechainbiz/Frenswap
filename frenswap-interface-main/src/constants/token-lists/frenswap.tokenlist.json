@@ -1,0 +1,22 @@
+{
+  "name": "Frenswap List",
+  "timestamp": "2021-07-15T12:15:29.993Z",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "tags": {},
+  "logoURI": "https://raw.githubusercontent.com/sushiswap/art/master/sushi/logo-256x256.png",
+  "keywords": ["sushiswap", "default"],
+  "tokens": [
+    {
+      "name": "Wrapped PEPE",
+      "address": "0xe09B47411A03BA98C67A4768A365F28ba67A769E",
+      "symbol": "WPEPE",
+      "decimals": 18,
+      "chainId": 420693,
+      "logoURI": "https://frenswap.club/images/tokens/pepe.png"
+    }
+  ]
+}
