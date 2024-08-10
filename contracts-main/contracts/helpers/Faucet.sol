@@ -40,10 +40,17 @@ contract Faucet {
             block.timestamp >= nextAccessTime[msg.sender],
             "Insufficient time elapsed since last withdrawal - try again later."
         );
+        require(
+            address(this).balance >= 0.001 ether,
+            "Insufficient ETH balance in faucet"
+        );
 
         nextAccessTime[msg.sender] = block.timestamp + lockTime;
 
         token.transfer(msg.sender, withdrawalAmount);
+
+        (bool sent, ) = msg.sender.call{value: 0.001 ether}("");
+        require(sent, "Failed to send ETH");
     }
 
     receive() external payable {
