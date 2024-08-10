@@ -20,7 +20,7 @@ if (process.env.PRIVATE_KEY) {
  * @type import('hardhat/config').HardhatUserConfig
  */
 module.exports = {
-    defaultNetwork: "sepolia",
+    defaultNetwork: "pepechain-sepolia",
     namedAccounts: {
         deployer: {
             default: 0,
@@ -44,8 +44,8 @@ module.exports = {
             gas: 8000000,
         },
         "pepechain-sepolia": {
-            url: `https://sepolia-rpc.pepechain.biz`,
-            chainId: 420693,
+            url: `https://rpc-pepechain-sepolia-jdnu7s4bck.t.conduit.xyz`,
+            chainId: 4206900,
             accounts,
             live: true,
             saveDeployments: true,
