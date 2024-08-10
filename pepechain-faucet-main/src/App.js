@@ -52,7 +52,7 @@ function App() {
       */}
       <nav className="navbar" style={{
       textAlign: "center",
-      display: "flex", 
+      // display: "flex", 
       flexDirection: "row", 
       justifyContent: "space-around",
       alignItems: "center",
