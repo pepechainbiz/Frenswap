@@ -26,3 +26,28 @@ body {
     /* font-family: 'ms sans serif'; */
     font-size: 1rem;
   }
+
+
+  .box {
+    /* margin-top: 50px; */
+    background-color: silver;
+  }
+  
+  .panel {
+    margin-top: 2em;
+  }
+  
+  .panel-heading {
+    background-image: linear-gradient(to left,#38052F, #070709);
+    background-color: black;
+    color: white;
+  }
+  
+  .address-box {
+    padding: 3em;
+  }
+  
+  .box .title {
+    color: #333;
+  }
+  
