@@ -1,0 +1,35 @@
+{
+  "language": "Solidity",
+  "sources": {
+    "contracts/helpers/Faucet.sol": {
+      "content": "// SPDX-License-Identifier: MIT\n\npragma solidity ^0.8.17;\n\ninterface IERC20 {\n    function transfer(address to, uint256 amount) external returns (bool);\n\n    function balanceOf(address account) external view returns (uint256);\n\n    event Transfer(address indexed from, address indexed to, uint256 value);\n}\n\ncontract Faucet {\n    address payable owner;\n    IERC20 public token;\n\n    uint256 public withdrawalAmount = 100 * (10**18);\n    uint256 public lockTime = 1 minutes;\n\n    event Withdrawal(address indexed to, uint256 indexed amount);\n    event Deposit(address indexed from, uint256 indexed amount);\n\n    mapping(address => uint256) nextAccessTime;\n\n    constructor(address tokenAddress) payable {\n        token = IERC20(tokenAddress);\n        owner = payable(msg.sender);\n    }\n\n    function requestTokens() public {\n        require(\n            msg.sender != address(0),\n            \"Request must not originate from a zero account\"\n        );\n        require(\n            token.balanceOf(address(this)) >= withdrawalAmount,\n            \"Insufficient balance in faucet for withdrawal request\"\n        );\n        require(\n            block.timestamp >= nextAccessTime[msg.sender],\n            \"Insufficient time elapsed since last withdrawal - try again later.\"\n        );\n\n        nextAccessTime[msg.sender] = block.timestamp + lockTime;\n\n        token.transfer(msg.sender, withdrawalAmount);\n    }\n\n    receive() external payable {\n        emit Deposit(msg.sender, msg.value);\n    }\n\n    function getBalance() external view returns (uint256) {\n        return token.balanceOf(address(this));\n    }\n\n    function setWithdrawalAmount(uint256 amount) public onlyOwner {\n        withdrawalAmount = amount * (10**18);\n    }\n\n    function setLockTime(uint256 amount) public onlyOwner {\n        lockTime = amount * 1 minutes;\n    }\n\n    function withdraw() external onlyOwner {\n        emit Withdrawal(msg.sender, token.balanceOf(address(this)));\n        token.transfer(msg.sender, token.balanceOf(address(this)));\n    }\n\n    modifier onlyOwner() {\n        require(\n            msg.sender == owner,\n            \"Only the contract owner can call this function\"\n        );\n        _;\n    }\n}\n"
+    }
+  },
+  "settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 999999
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "abi",
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "evm.methodIdentifiers",
+          "metadata",
+          "devdoc",
+          "userdoc",
+          "storageLayout",
+          "evm.gasEstimates"
+        ],
+        "": [
+          "ast"
+        ]
+      }
+    },
+    "metadata": {
+      "useLiteralContent": true
+    }
+  }
+}
