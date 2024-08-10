@@ -13,7 +13,7 @@ const items = (i18n: I18n) => [
   {
     name: i18n._(t`Docs`),
     description: i18n._(t`Documentation for Frenswap.club users`),
-    href: 'https://docs.pepechain.co',
+    href: 'https://docs.pepechain.biz',
     external: true,
   },
   // {
