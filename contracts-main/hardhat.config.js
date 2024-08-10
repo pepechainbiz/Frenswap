@@ -34,7 +34,7 @@ module.exports = {
     },
     networks: {
         sepolia: {
-            url: `https://eth-sepolia.api.onfinality.io/public`,
+            url: `https://ethereum-sepolia.rpc.subquery.network/public	`,
             chainId: 11155111,
             accounts,
             live: true,
