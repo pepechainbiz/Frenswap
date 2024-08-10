@@ -22,8 +22,8 @@ function App() {
   return (
     <div>
             <nav className="navbar" style={{
-        border: '8px solid #069',
-        borderRadius: '20px',
+        // border: '8px solid #069',
+        // borderRadius: '20px',
         backgroundColor: '#069420',
         color: '#000',
         padding: '30px',
