@@ -5,7 +5,7 @@ module.exports = async function ({ getNamedAccounts, deployments }) {
   
     const { deployer } = await getNamedAccounts();
 
-    const token = "0xb08edc14bfe0eaf654371bf777f23ab06be542c6";
+    const token = "0x9CFfe912528B1e55d8b6471D7aE483f44eD655fB";
   
     await deploy("Faucet", {
       from: deployer,
