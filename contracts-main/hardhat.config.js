@@ -34,13 +34,13 @@ module.exports = {
     },
     networks: {
         sepolia: {
-            url: `https://sepolia.drpc.org`,
+            url: `https://eth-sepolia.api.onfinality.io/public`,
             chainId: 11155111,
             accounts,
             live: true,
             saveDeployments: true,
             tags: ["sepolia"],
-            gasPrice: 50_000000000,
+            gasPrice: 5_000000000,
             gas: 8000000,
         },
         "pepechain-sepolia": {
