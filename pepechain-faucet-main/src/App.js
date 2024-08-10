@@ -178,7 +178,7 @@ function App() {
           justifyContent: "space-between",
 
         }}>
-        <a href="https://pepechain-sepolia-jdnu7s4bck-1524e08fc41c2292.testnets.rollbridge.app" target="_blank" rel="noopener noreferrer">
+        {/* <a href="https://pepechain-sepolia-jdnu7s4bck-1524e08fc41c2292.testnets.rollbridge.app" target="_blank" rel="noopener noreferrer">
           <img src={bridgePixel} width={30} alt="bridge" />
           <p>Bridge</p>
         </a>
@@ -194,7 +194,7 @@ function App() {
         <a href="https://pepechain.biz" target="_blank" rel="noopener noreferrer">
           <img src={pepePixel} width={30} alt="website" />
           <p>Pepechain</p>
-        </a>
+        </a> */}
       
       </div>
   </nav>
