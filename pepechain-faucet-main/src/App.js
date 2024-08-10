@@ -118,7 +118,49 @@ function App() {
       </div>
   </nav>
 
+  <footer style={{
+      textAlign: "center",
+      marginTop: "50px",
+      display: "flex", 
+      flexDirection: "row", 
+      justifyContent: "space-around",
+      alignItems: "center",
+      padding: "1rem"
+      }}>
+      <div style={{ 
+          display: "flex", 
+          flexDirection: "row", 
+          // alignItems: "center",
+          justifyContent: "space-between",
 
+        }}>
+        <a href="https://twitter.com/pepechainbiz" target="_blank" rel="noopener noreferrer">
+          <img src={xTwitterPixel} width={36} alt="twitter" />
+        </a>
+        <a href="https://t.me/pepechainbiz" target="_blank" rel="noopener noreferrer">
+          <img src={telegramPixel} width={36} alt="telegram" />
+        </a>
+        <a href="https://docs.pepechain.biz" target="_blank" rel="noopener noreferrer">
+          <img src={docsPixel} width={36} alt="docs" />
+        </a>
+        <a href="mailto:hello@pepechain.biz" target="_blank" rel="noopener noreferrer">
+          <img src={mailPixel} width={36} alt="email" />
+        </a>
+      
+      </div>
+      <div style={{ 
+          // display: "flex", 
+          // flexDirection: "row", 
+          // alignItems: "center",
+          // justifyContent: "space-around",
+          // padding: "1rem" 
+        }}>
+        <a href="https://pepechain.biz" target="_blank" rel="noopener noreferrer">
+          <img src={pepePixel} width={36} alt="website" />
+        </a>
+      
+      </div>
+  </footer>
 
     </div>
   );
