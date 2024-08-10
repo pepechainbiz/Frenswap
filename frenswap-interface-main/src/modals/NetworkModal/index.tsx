@@ -139,15 +139,15 @@ export const SUPPORTED_NETWORKS: {
   //   blockExplorerUrls: ['https://mainnet-arb-explorer.netlify.app'],
   // },
   [ChainId.PEPECHAIN_SEPOLIA]: {
-    chainId: '0x66B55',
+    chainId: '0x403134',
     chainName: 'Pepechain Sepolia',
     nativeCurrency: {
       name: 'Pepe',
       symbol: 'PEPE',
       decimals: 18,
     },
-    rpcUrls: ['https://sepolia-rpc.pepechain.biz'],
-    blockExplorerUrls: ['https://sepolia.pepescan.biz/'],
+    rpcUrls: ['https://rpc-sepolia.pepechain.co'],
+    blockExplorerUrls: ['https://sepolia.pepescan.co/'],
   },
 }
 

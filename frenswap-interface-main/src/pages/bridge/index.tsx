@@ -139,7 +139,7 @@ export default function Bridge() {
   )
 
   const { data: anyswapInfo, error }: SWRResponse<AnyswapTokensMap, Error> = useSWR(
-    'https://bridgeapi.anyswap.exchange/v2/serverInfo/420693',
+    'https://bridgeapi.anyswap.exchange/v2/serverInfo/4206900',
     (url) =>
       fetch(url)
         .then((result) => result.json())

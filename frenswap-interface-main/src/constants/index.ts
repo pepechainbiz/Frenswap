@@ -20,7 +20,7 @@ export const RPC = {
   [ChainId.BSC]: 'https://bsc-dataseed.binance.org/',
   [ChainId.BSC_TESTNET]: 'https://data-seed-prebsc-2-s3.binance.org:8545',
   [ChainId.MOONBEAM_TESTNET]: 'https://rpc.testnet.moonbeam.network',
-  [ChainId.PEPECHAIN_SEPOLIA]: 'https://sepolia-rpc.pepechain.biz',
+  [ChainId.PEPECHAIN_SEPOLIA]: 'https://rpc-sepolia.pepechain.co',
   [ChainId.AVALANCHE]: 'https://api.avax.network/ext/bc/C/rpc',
   [ChainId.AVALANCHE_TESTNET]: 'https://api.avax-test.network/ext/bc/C/rpc',
   [ChainId.HECO]: 'https://http-mainnet.hecochain.com',

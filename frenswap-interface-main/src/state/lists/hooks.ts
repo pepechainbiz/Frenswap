@@ -64,7 +64,7 @@ function combineMaps(map1: TokenAddressMap, map2: TokenAddressMap): TokenAddress
     42161: { ...map1[42161], ...map2[42161] }, // arbitrum
     79377087078960: { ...map1[79377087078960], ...map2[79377087078960] }, // arbitrum testnet
     1287: { ...map1[1287], ...map2[1287] }, // moonbase
-    420693: { ...map1[420693], ...map2[420693] }, // pepechain_sepolia
+    4206900: { ...map1[4206900], ...map2[4206900] }, // pepechain_sepolia
     128: { ...map1[128], ...map2[128] }, // heco
     256: { ...map1[256], ...map2[256] }, // heco testnet
     43114: { ...map1[43114], ...map2[43114] }, // avax mainnet

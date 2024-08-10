@@ -5,7 +5,7 @@ module.exports = async function ({ getNamedAccounts, deployments }) {
   
     const { deployer } = await getNamedAccounts();
   
-    await deploy("Multicall2", {
+    await deploy("Multicall3", {
       from: deployer,
       args: [],
       log: true,
@@ -13,4 +13,4 @@ module.exports = async function ({ getNamedAccounts, deployments }) {
     });
   };
   
-  module.exports.tags = ["Multicall2"];
+  module.exports.tags = ["Multicall3"];

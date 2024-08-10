@@ -230,7 +230,7 @@ export const WETH9_EXTENDED: { [chainId: number]: Token } = {
   ...WETH9,
   [SupportedChainId.PEPECHAIN_SEPOLIA]: new Token(
     ChainId.PEPECHAIN_SEPOLIA,
-    '0xe09B47411A03BA98C67A4768A365F28ba67A769E',
+    '0x775DD076241e19c595B99Bcb2B7958d12E0FA991',
     18,
     'PEPE',
     'Pepe'

@@ -191,7 +191,7 @@ export const WETH9: { [chainId: number]: Token } = {
   ),
   [ChainId.PEPECHAIN_SEPOLIA]: new Token(
     ChainId.PEPECHAIN_SEPOLIA,
-    '0xe09B47411A03BA98C67A4768A365F28ba67A769E',
+    '0x775DD076241e19c595B99Bcb2B7958d12E0FA991',
     18,
     'WPEPE',
     'Wrapped PEPE'
@@ -334,7 +334,7 @@ export const WNATIVE: { [chainId: number]: Token } = {
   ),
   [ChainId.PEPECHAIN_SEPOLIA]: new Token(
     ChainId.PEPECHAIN_SEPOLIA,
-    '0xe09B47411A03BA98C67A4768A365F28ba67A769E',
+    '0x775DD076241e19c595B99Bcb2B7958d12E0FA991',
     18,
     'WPEPE',
     'Wrapped PEPE'

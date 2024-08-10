@@ -12,10 +12,10 @@
   "tokens": [
     {
       "name": "Wrapped PEPE",
-      "address": "0xe09B47411A03BA98C67A4768A365F28ba67A769E",
+      "address": "0x775DD076241e19c595B99Bcb2B7958d12E0FA991",
       "symbol": "WPEPE",
       "decimals": 18,
-      "chainId": 420693,
+      "chainId": 4206900,
       "logoURI": "https://frenswap.club/images/tokens/pepe.png"
     }
   ]

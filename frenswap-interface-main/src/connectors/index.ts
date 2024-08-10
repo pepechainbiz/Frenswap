@@ -33,11 +33,11 @@ export const RPC = {
   [ChainId.OKEX]: 'https://exchainrpc.okex.org',
   [ChainId.OKEX_TESTNET]: 'https://exchaintestrpc.okex.org',
   [ChainId.ARBITRUM]: 'https://arb1.arbitrum.io/rpc',
-  [ChainId.PEPECHAIN_SEPOLIA]: 'https://sepolia-rpc.pepechain.biz4', //'https://sepolia-rpc.pepechain.biz',
+  [ChainId.PEPECHAIN_SEPOLIA]: 'https://rpc-sepolia.pepechain.co', //'https://rpc-sepolia.pepechain.co',
 }
 
 export const network = new NetworkConnector({
-  defaultChainId: 420693,
+  defaultChainId: 4206900,
   urls: RPC,
 })
 
@@ -62,7 +62,7 @@ export const injected = new InjectedConnector({
     // 56, // binance smart chain
     // 97, // binance smart chain testnet
     // 1287, // moonbase
-    420693, // pepechain_sepolia
+    4206900, // pepechain_sepolia
     // 43114, // avalanche
     // 43113, // fuji
     // 128, // heco
@@ -92,7 +92,7 @@ export const bridgeInjected = new InjectedConnector({
     56, // binance smart chain
     // 97, // binance smart chain testnet
     // 1287, // moonbase
-    420693, // pepechain_sepolia
+    4206900, // pepechain_sepolia
     // 43114, // avalanche
     // 43113, // fuji
     // 128, // heco

@@ -32,7 +32,7 @@ export const POOLS: AddressMap = {
         decimals: 18,
       },
       token1: {
-        id: '0xe09B47411A03BA98C67A4768A365F28ba67A769E',
+        id: '0x775DD076241e19c595B99Bcb2B7958d12E0FA991',
         name: 'Pepechain_Sepolia',
         symbol: 'PEPE',
         decimals: 18,
@@ -49,10 +49,10 @@ export const POOLS: AddressMap = {
         decimals: 18,
       },
     },
-    '0xe09B47411A03BA98C67A4768A365F28ba67A769E': {
+    '0x775DD076241e19c595B99Bcb2B7958d12E0FA991': {
       id: 2,
       token0: {
-        id: '0xe09B47411A03BA98C67A4768A365F28ba67A769E',
+        id: '0x775DD076241e19c595B99Bcb2B7958d12E0FA991',
         name: 'Wrapped Pepechain_Sepolia',
         symbol: 'WPEPE',
         decimals: 18,
@@ -84,7 +84,7 @@ export const POOLS: AddressMap = {
         decimals: 18,
       },
       token1: {
-        id: '0xe09B47411A03BA98C67A4768A365F28ba67A769E',
+        id: '0x775DD076241e19c595B99Bcb2B7958d12E0FA991',
         name: 'Pepechain_Sepolia',
         symbol: 'PEPE',
         decimals: 18,
@@ -110,7 +110,7 @@ export const POOLS: AddressMap = {
         decimals: 6,
       },
       token1: {
-        id: '0xe09B47411A03BA98C67A4768A365F28ba67A769E',
+        id: '0x775DD076241e19c595B99Bcb2B7958d12E0FA991',
         name: 'Pepechain_Sepolia',
         symbol: 'PEPE',
         decimals: 18,

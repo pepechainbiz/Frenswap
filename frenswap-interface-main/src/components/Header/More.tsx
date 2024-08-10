@@ -13,7 +13,7 @@ const items = (i18n: I18n) => [
   {
     name: i18n._(t`Docs`),
     description: i18n._(t`Documentation for Frenswap.club users`),
-    href: 'https://docs.pepechain.biz',
+    href: 'https://docs.pepechain.co',
     external: true,
   },
   // {
@@ -22,18 +22,18 @@ const items = (i18n: I18n) => [
   //   href: 'https://github.com/frenswapclub',
   //   external: true,
   // },
-  {
-    name: i18n._(t`Twitter`),
-    description: i18n._(t`Follow us on Twitter`),
-    href: 'https://twitter.com/pepechainbiz',
-    external: true,
-  },
-  {
-    name: i18n._(t`Telegram`),
-    description: i18n._(t`Join the community on Telegram`),
-    href: 'https://t.me/pepechainbiz',
-    external: true,
-  },
+  // {
+  //   name: i18n._(t`Twitter`),
+  //   description: i18n._(t`Follow us on Twitter`),
+  //   href: 'https://twitter.com/pepechainbiz',
+  //   external: true,
+  // },
+  // {
+  //   name: i18n._(t`Telegram`),
+  //   description: i18n._(t`Join the community on Telegram`),
+  //   href: 'https://t.me/pepechainbiz',
+  //   external: true,
+  // },
   // {
   //   name: i18n._(t`Discord`),
   //   description: i18n._(t`Join the community on Discord`),
