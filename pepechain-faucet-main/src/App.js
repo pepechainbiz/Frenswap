@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 import { ethers } from "ethers";
+import faucetContract from "./ethereum/faucet";
 
 // eslint-disable-next-line
 
@@ -118,6 +119,8 @@ function App() {
       </div>
   </nav>
 
+  
+
   <footer style={{
       textAlign: "center",
       marginTop: "50px",
@@ -127,7 +130,7 @@ function App() {
       alignItems: "center",
       padding: "1rem"
       }}>
-      <div style={{ 
+      {/* <div style={{ 
           display: "flex", 
           flexDirection: "row", 
           // alignItems: "center",
@@ -159,7 +162,7 @@ function App() {
           <img src={pepePixel} width={36} alt="website" />
         </a>
       
-      </div>
+      </div> */}
   </footer>
 
     </div>
