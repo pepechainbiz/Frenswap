@@ -21,6 +21,7 @@ function App() {
 
   return (
     <div>
+       {/*
             <nav className="navbar" style={{
         // border: '8px solid #069',
         // borderRadius: '20px',
@@ -52,6 +53,7 @@ function App() {
 
         
       </nav>
+      */}
 
 
 
