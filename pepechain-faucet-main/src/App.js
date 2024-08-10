@@ -12,6 +12,10 @@ import docsPixel from './images/Windows98Scaled Icon 13-3.png';
 import pepePixel from './images/pepe-pixel-256px.png';
 import bridgePixel from './images/concrete-bridge-pixelated.png';
 
+import { ReactComponent as MinimizeIcon } from './images/MinimizeIcon.svg';
+import { ReactComponent as WindowIcon } from './images/WindowIcon.svg';
+import { ReactComponent as CloseIcon } from './images/CloseIcon.svg';
+
 import React, { Component } from 'react'
 
 
