@@ -31,10 +31,6 @@ function App() {
         marginBottom: '2px'
       }}>
 
-
-      
-
-
         <div className="container">
           
           <div className="navbar-brand">
@@ -54,6 +50,33 @@ function App() {
         
       </nav>
       */}
+      <nav className="navbar" style={{
+      textAlign: "center",
+      display: "flex", 
+      flexDirection: "row", 
+      justifyContent: "space-around",
+      alignItems: "center",
+      padding: "1rem"
+      }}>
+      <div style={{ 
+          display: "flex", 
+          flexDirection: "row", 
+          alignItems: "center",
+          justifyContent: "space-between",
+
+        }}>
+      
+      </div>
+      <div style={{ 
+          display: "flex", 
+          flexDirection: "row", 
+          alignItems: "center",
+          justifyContent: "space-between",
+          // padding: "1rem" 
+        }}>
+      
+      </div>
+  </nav>
 
 
 
