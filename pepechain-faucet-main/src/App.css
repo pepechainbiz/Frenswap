@@ -1,0 +1,9 @@
+body {
+    /* background: url("./images/bit1.png"); */
+    /*background: url("./images/scarlet.png") no-repeat, url("./images/bg-1.png") no-repeat;  */ 
+    background-color: #069420;
+    color: white;
+    /* overflow-wrap: anywhere; */
+    /* box-sizing: border-box; */
+    /* overflow: visible; */
+  }
