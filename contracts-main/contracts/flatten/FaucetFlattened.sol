@@ -1,3 +1,7 @@
+// Sources flattened with hardhat v2.6.0 https://hardhat.org
+
+// File contracts/helpers/Faucet.sol
+
 // SPDX-License-Identifier: MIT
 
 pragma solidity ^0.8.17;

@@ -305,9 +305,16 @@ function App() {
                 "padding": "1rem",
                 // "textAlign": "left"
               }}>
-                Connect wallet before requesting PEPE 
+                Ensure you have at least .001 ETH on Mainnet
                 <br/>
                 <br/>
+                Now get some testnet ETH
+                <a
+                href="https://www.alchemy.com/faucets/ethereum-sepolia"
+                target="blank"> Here </a>
+                <br/>
+                <br/>
+                Connect wallet to
                 Receive 100 
                 <a 
                  href="https://sepolia.etherscan.io/token/0x9cffe912528b1e55d8b6471d7ae483f44ed655fb"
@@ -321,7 +328,7 @@ function App() {
                 Must wait at least 60 Seconds before requesting again
                  <br/> 
                  <br/> 
-                Click<a href="https://pepechain-sepolia-jdnu7s4bck-1524e08fc41c2292.testnets.rollbridge.app" target="blank"> here </a>
+                Click<a href="https://pepechain-sepolia-jdnu7s4bck-1524e08fc41c2292.testnets.rollbridge.app" target="blank"> Here </a>
                 or the bridge to transfer to Pepechain Testnet.
                 <br/>
                 <a href="https://pepechain-sepolia-jdnu7s4bck-1524e08fc41c2292.testnets.rollbridge.app" target="blank">
