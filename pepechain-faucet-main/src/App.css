@@ -27,6 +27,11 @@ body {
     font-size: 1rem;
   }
 
+  .title {
+    color: #fff;
+    margin-bottom: 1rem;
+    font-family: "ms sans serif", Arial, sans-serif;
+  }
 
   .box {
     /* margin-top: 50px; */
@@ -51,3 +56,27 @@ body {
     color: #333;
   }
   
+  .navbar {
+    background-color: #069420;
+  }
+  
+  .navbar p {
+    color: white !important;
+    font-family: "ms sans serif";
+    font-size: 12pt;
+    /* font-weight:  bold; */
+  }
+  
+  .navbar a {
+    margin: 1rem;
+  }
+  
+  .navbar p:hover {
+    color: #069 !important;
+    font-family: "ms sans serif";
+    font-size: 14pt;
+  }
+  
+  .navbar .navbar-item {
+    color: white !important;
+  }
