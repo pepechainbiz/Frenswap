@@ -20,7 +20,7 @@ if (process.env.PRIVATE_KEY) {
  * @type import('hardhat/config').HardhatUserConfig
  */
 module.exports = {
-    defaultNetwork: "pepechain-sepolia",
+    defaultNetwork: "sepolia",
     namedAccounts: {
         deployer: {
             default: 0,
