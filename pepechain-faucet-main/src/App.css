@@ -13,6 +13,9 @@ body {
     /* overflow: visible; */
   }
 
+  img {
+    margin: 2rem;
+  }
 
   input {
     width: 80% !important;
