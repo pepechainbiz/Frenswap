@@ -93,7 +93,7 @@ const builders = {
   },
 
   pepechain_sepolia: (chainName: string, data: string, type: 'transaction' | 'token' | 'address' | 'block') => {
-    const prefix = 'https://sepolia.pepescan.co'
+    const prefix = 'https://sepolia.pepechain.biz'
     switch (type) {
       case 'transaction':
         return `${prefix}/tx/${data}`

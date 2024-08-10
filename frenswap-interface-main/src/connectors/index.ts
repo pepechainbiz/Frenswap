@@ -33,7 +33,7 @@ export const RPC = {
   [ChainId.OKEX]: 'https://exchainrpc.okex.org',
   [ChainId.OKEX_TESTNET]: 'https://exchaintestrpc.okex.org',
   [ChainId.ARBITRUM]: 'https://arb1.arbitrum.io/rpc',
-  [ChainId.PEPECHAIN_SEPOLIA]: 'https://rpc-sepolia.pepechain.co', //'https://rpc-sepolia.pepechain.co',
+  [ChainId.PEPECHAIN_SEPOLIA]: 'https://rpc-pepechain-sepolia-jdnu7s4bck.t.conduit.xyz', //'https://rpc-pepechain-sepolia-jdnu7s4bck.t.conduit.xyz',
 }
 
 export const network = new NetworkConnector({

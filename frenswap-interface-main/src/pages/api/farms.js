@@ -4,7 +4,7 @@ import pairAbi from '../../constants/abis/uniswap-v2-pair.json'
 import { POOLS } from '../../constants/farms'
 import { ChainId } from '../../sdk'
 
-const NETWORK_URL = 'https://rpc-sepolia.pepechain.co'
+const NETWORK_URL = 'https://rpc-pepechain-sepolia-jdnu7s4bck.t.conduit.xyz'
 const web3 = new Web3(NETWORK_URL)
 
 export default async function handler(req, res) {

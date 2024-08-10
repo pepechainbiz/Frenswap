@@ -57,8 +57,8 @@ export const SUPPORTED_NETWORKS: {
       symbol: 'PEPE',
       decimals: 18,
     },
-    rpcUrls: ['https://rpc-sepolia.pepechain.co'],
-    blockExplorerUrls: ['https://sepolia.pepescan.co/'],
+    rpcUrls: ['https://rpc-pepechain-sepolia-jdnu7s4bck.t.conduit.xyz'],
+    blockExplorerUrls: ['https://sepolia.pepechain.biz/'],
   },
 }
 
