@@ -178,23 +178,7 @@ function App() {
           justifyContent: "space-between",
 
         }}>
-        <a href="https://twitter.com/pepechainbiz" target="_blank" rel="noopener noreferrer">
-          <img src={xTwitterPixel} width={30} alt="twitter" />
-          <p>X</p>
-        </a>
-        <a href="https://t.me/pepechainbiz" target="_blank" rel="noopener noreferrer">
-          <img src={telegramPixel} width={30} alt="telegram" />
-          <p>Telegram</p>
-        </a>
-        <a href="https://docs.pepechain.biz" target="_blank" rel="noopener noreferrer">
-          <img src={docsPixel} width={30} alt="docs" />
-          <p>Docs</p>
-        </a>
-        <a href="mailto:hello@pepechain.biz" target="_blank" rel="noopener noreferrer">
-          <img src={mailPixel} width={30} alt="email" />
-          <p>Mail</p>
-        </a>
-        <a href="https://pepechain-sepolia-ro3l07tj1p.testnets.rollbridge.app" target="_blank" rel="noopener noreferrer">
+        <a href="https://pepechain-sepolia-jdnu7s4bck-1524e08fc41c2292.testnets.rollbridge.app" target="_blank" rel="noopener noreferrer">
           <img src={bridgePixel} width={30} alt="bridge" />
           <p>Bridge</p>
         </a>

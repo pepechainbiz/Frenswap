@@ -1,3 +1,7 @@
+// Sources flattened with hardhat v2.6.0 https://hardhat.org
+
+// File contracts/helpers/Faucet2.sol
+
 // SPDX-License-Identifier: MIT
 
 pragma solidity ^0.8.17;
@@ -10,7 +14,7 @@ interface IERC20 {
     event Transfer(address indexed from, address indexed to, uint256 value);
 }
 
-contract Faucet {
+contract Faucet2 {
     address payable owner;
     IERC20 public token;
 

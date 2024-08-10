@@ -7,7 +7,7 @@ module.exports = async function ({ getNamedAccounts, deployments }) {
 
     const token = "0x9CFfe912528B1e55d8b6471D7aE483f44eD655fB";
   
-    await deploy("Faucet", {
+    await deploy("Faucet2", {
       from: deployer,
       args: [token],
       log: true,
@@ -15,4 +15,4 @@ module.exports = async function ({ getNamedAccounts, deployments }) {
     });
   };
   
-  module.exports.tags = ["Faucet"];
+  module.exports.tags = ["Faucet2"];
