@@ -128,9 +128,6 @@ function App() {
     }
   };
 
-  function onChange(value) {
-    console.log("Captcha value:", value);
-  }
 
   return (
     <div>
@@ -332,11 +329,6 @@ function App() {
                 </a>
               </p>
               {/* <br /> */}
-
-              {/* <ReCAPTCHA
-                sitekey=""
-                onChange={onChange}
-              /> */}
 
               <div className="m-2"> 
                 {withdrawError && (
