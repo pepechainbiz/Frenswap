@@ -299,6 +299,32 @@ function App() {
                 <br/>
                 <br/>
                 Connect wallet to
+                <a
+                href="https://chainlist.org/?search=11155111&testnets=true"
+                target="blank"> Ethereum Sepolia </a>
+                <br/>
+                <br/>
+                <button style={{
+                    border: '0px solid',
+                    background: 'hsla(0, 0%, 75.29%,1.00)',
+                    borderRadius: '0px',
+                    color: '#000',
+                    // padding: '20px',
+                    // marginBottom: '20px',
+                    // transition: 'background-color 0.3s ease'
+                  }}
+                    className={`button ${isButtonHoveredtemp1 ? 'button-hovered' : ''} `}
+                    onClick={getOCTHandler}
+                    disabled={walletAddress ? false : true}
+                    onMouseEnter={() => setIsButtonHoveredtemp1(true)}
+                    onMouseLeave={() => setIsButtonHoveredtemp1(false)}
+                  > 
+
+                    {walletAddress ? "Send Me PEPE" : "Your wallet is not connected"}
+
+                  </button>
+                  <br/>
+                  <br/>
                 Receive 100 
                 <a 
                  href="https://sepolia.etherscan.io/token/0x9cffe912528b1e55d8b6471d7ae483f44ed655fb"
