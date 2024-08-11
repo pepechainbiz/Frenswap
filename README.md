@@ -2,12 +2,13 @@
 
 Pepechain is a Layer 2 ecosystem powered by Conduit & $PEPE that brings utility to memecoins
 
-
+```bash
 Name: Pepechain Sepolia 
 ChainId: 4206900 
 RPC: https://rpc-sepolia.pepechain.biz 
 Explorer: https://sepolia.pepescan.biz 
 Symbol: PEPE
+```
 
 ## Setting Up
 ---
