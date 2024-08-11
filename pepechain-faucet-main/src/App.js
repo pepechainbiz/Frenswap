@@ -260,7 +260,7 @@ function App() {
                 </div>
                 <div className="column">
 
-                  <button style={{
+                  {/* <button style={{
                     border: '0px solid',
                     background: 'hsla(0, 0%, 75.29%,1.00)',
                     borderRadius: '0px',
@@ -278,7 +278,7 @@ function App() {
 
                     {walletAddress ? "Send Me PEPE" : "Your wallet is not connected"}
 
-                  </button>
+                  </button> */}
 
                  
                 </div>
